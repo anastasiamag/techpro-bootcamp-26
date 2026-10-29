@@ -29,19 +29,30 @@
 
 # hello("Anastasia")
 
-# factorial
-def factorial(n):
-    result =1
-    if n==1:
-        return 1
-    for i in range(2, n+1):
-        result*=i
-    return result
+# # factorial
+# def factorial(n):
+#     result =1
+#     if n==1:
+#         return 1
+#     for i in range(2, n+1):
+#         result*=i
+#     return result
 
-print(factorial(3))
-print(factorial(4))
-print(factorial(0))
-print(factorial(1))
-print(factorial(5))
+# print(factorial(3))
+# print(factorial(4))
+# print(factorial(0))
+# print(factorial(1))
+# print(factorial(5))
 
+#Array 
+scores = [10,25,40,65,75,90]
+# for s in scores:
+print(f"length: {len(scores)}")
+print()
 
+for i in range(1, len(scores),2):
+    print(scores[i])
+print()
+
+for i in range(len(scores)-1, -1, -1):
+    print(scores[i])
