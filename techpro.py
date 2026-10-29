@@ -15,15 +15,33 @@
 #     else: 
 #         print(i)
 
-age =10 
-def hello(name):
-    print(f"Hello {name}")
+# #Intro to functions
+# age =10 
+# def hello(name):
+#     print(f"Hello {name}")
 
-def greeting(name):
-    return f"Hello {name}"
+# def greeting(name):
+#     return f"Hello {name}"
 
 
-name="jimmy"
-greeting("Anastasia")
+# name="jimmy"
+# greeting("Anastasia")
 
-hello("Anastasia")
+# hello("Anastasia")
+
+# factorial
+def factorial(n):
+    result =1
+    if n==1:
+        return 1
+    for i in range(2, n+1):
+        result*=i
+    return result
+
+print(factorial(3))
+print(factorial(4))
+print(factorial(0))
+print(factorial(1))
+print(factorial(5))
+
+
